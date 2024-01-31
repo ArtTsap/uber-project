@@ -24,7 +24,7 @@ nav {
 
 .menu .menu_item {
     border-right: 2px dotted black;
-    padding-right: 28px;
+    padding-right: 30px;
 
 
 }
@@ -48,4 +48,28 @@ nav {
     font-weight: 400;
 }
 
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
 
+.subheader .subheader_btn {
+    margin-top: 19px;
+    border-radius: 4px;
+    width: 172px;
+    height: 46px;
+    box-shadow: none;
+    border: 3px solid rgba(0,0,0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
