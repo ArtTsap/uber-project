@@ -11,13 +11,14 @@ nav {
     background-color: #212121;
 }
 
+
+
 .menu {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding:  13px 70px;
     list-style-type: none;
-
 }
 
 .menu .menu_link {
@@ -149,8 +150,8 @@ nav {
 }
 
 
-.advantages {
-    margin-top: 20px;
+.advantages_header {
+    margin-top: 30px;
     font-size: 11px;
     font-weight: 400;
     line-height: 11px;
@@ -159,7 +160,7 @@ nav {
 }
 
 .eight {
-    margin-top: 77px;
+    margin-top: 47px;
     color: #222222;
     font-size: 38px;
     font-weight: 700;
@@ -168,27 +169,35 @@ nav {
 
 }
 
-.work .img_work {
+.advantages_container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 53px;
+    height: 768px;
 }
 
-.work .img_bg {
+.advantages_container .advantage {
     display: flex;
-    
-    margin: 0 auto;
-    width: 115px;
-    height: 115px;
+    justify-content: center;
+    align-items: center;
+    height: 182px;
+    margin: 5px;
+}
+
+.advantage .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
     background-color: #1eacc7;
     border-radius: 100%;
 }
 
-.work .text_work span {
-    color:#1eacc7;
+.advantage .text span {
+    
+    color: #1eacc7;
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
@@ -196,12 +205,16 @@ nav {
     text-align: left;
 }
 
-.work .text_work {
+.advantage .text {
+    margin-left: 25px;
+    width: 371px;
     color: #202020;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 0px;
     text-align: left;
-   
 }
+
+
+
